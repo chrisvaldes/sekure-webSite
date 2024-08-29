@@ -15,8 +15,10 @@ export default function Acceuil() {
                         <div class="flex mt-20">
                             <button class="text-nowrap rounded-md bg-white py-4 px-5 rounded-md">THE IDENTITY VERIFICATION PLATFORM</button>
                         </div>
-                        <div class="text-5xl text-left font-semibold text-emerald-500 mt-10">
-                            <span class="uppercase text-emerald-800">ai</span>-powered <span class="uppercase text-emerald-800">aml screening <br /> solution</span> to mitigate business <br /> risk
+                        <div class="text-5xl text-left font-bold text-emerald-300 mt-10">
+                            <span class="uppercase text-emerald-900">KYC </span>Rapide <span class="text-emerald-900">et</span> <span>flexible</span> <span class="text-emerald-900">pour</span> <br />
+                            <span>+200 pays </span> <span class="text-emerald-900">d'Afrique et du</span> <br />
+                            <span class="text-emerald-900">monde</span>
                         </div>
                         <div class="text-emerald-900 text-left text-lg mt-10">
                             Know Your Customer (KYC) procedures are essential to any business that wants to accurately <br />
@@ -31,78 +33,66 @@ export default function Acceuil() {
 
                 {/* Grid section */}
                 <div class="card-grid mx-20 py-5">
-                    <div class="flex items-center justify-center gap-20 grid-width ">
-                        <div class="circle-emerald-500 rounded-full bg-emerald-300 flex items-center justify-center">
-                            <div class="flex items-center justify-center circle-white rounded-full bg-white z-100">
-                                <span class="icon text-emerald-300">
-                                    <FontAwesomeIcon icon={faCheck} />
-                                </span>
-                            </div>
+                    <div class="flex items-center justify-center gap-10 grid-width">
+                        <div class="circle-emerald-500 rounded-full bg-white flex items-center justify-center">
+                            <span class="icon text-emerald-300">
+                                <FontAwesomeIcon icon={faCheck} />
+                            </span>
                         </div>
                         <div class="text-left text-white">
                             <h4 class="font-semibold text-md">Customer du diligence (CDD):</h4>
                             <h6>The only AI-powered identity verification</h6>
                         </div>
                     </div>
-                    <div class="flex items-center justify-center gap-20 grid-width ">
-                        <div class="circle-emerald-500 rounded-full bg-emerald-300 flex items-center justify-center">
-                            <div class="flex items-center justify-center circle-white rounded-full bg-white z-100">
-                                <span class="icon text-emerald-300">
-                                    <FontAwesomeIcon icon={faCheck} />
-                                </span>
-                            </div>
+                    <div class="flex items-center justify-center gap-10 grid-width ">
+                        <div class="circle-emerald-500 rounded-full bg-white flex items-center justify-center">
+                            <span class="icon text-emerald-300">
+                                <FontAwesomeIcon icon={faCheck} />
+                            </span>
                         </div>
                         <div class="text-left text-white">
                             <h4 class="font-semibold text-md">Adverse media screening</h4>
                             <h6>The only AI-powered identity verification</h6>
                         </div>
                     </div>
-                    <div class="flex items-center justify-center gap-20 grid-width">
-                        <div class="circle-emerald-500 rounded-full bg-emerald-300 flex items-center justify-center">
-                            <div class="flex items-center justify-center circle-white rounded-full bg-white z-100">
-                                <span class="icon text-emerald-300">
-                                    <FontAwesomeIcon icon={faCheck} />
-                                </span>
-                            </div>
+                    <div class="flex items-center justify-center gap-10 grid-width">
+                        <div class="circle-emerald-500 rounded-full bg-white flex items-center justify-center">
+                            <span class="icon text-emerald-300">
+                                <FontAwesomeIcon icon={faCheck} />
+                            </span>
                         </div>
                         <div class="text-left text-white">
                             <h4 class="font-semibold text-md">Enhanced due diligence (EDD) : </h4>
                             <h6>The only AI-powered identity verification</h6>
                         </div>
                     </div>
-                    <div class="flex items-center justify-center gap-20 grid-width">
-                        <div class="circle-emerald-500 rounded-full bg-emerald-300 flex items-center justify-center">
-                            <div class="flex items-center justify-center circle-white rounded-full bg-white z-100">
-                                <span class="icon text-emerald-300">
-                                    <FontAwesomeIcon icon={faCheck} />
-                                </span>
-                            </div>
+                    <div class="flex items-center justify-center gap-10 grid-width">
+                        <div class="circle-emerald-500 rounded-full bg-white flex items-center justify-center">
+                            <span class="icon text-emerald-300">
+                                <FontAwesomeIcon icon={faCheck} />
+                            </span>
                         </div>
                         <div class="text-left text-white">
                             <h4 class="font-semibold text-md">PEP Screening</h4>
                             <h6>The only AI-powered identity verification</h6>
                         </div>
                     </div>
-                    <div class="flex items-center justify-center gap-20 grid-width">
-                        <div class="circle-emerald-500 rounded-full bg-emerald-300 flex items-center justify-center">
-                            <div class="flex items-center justify-center circle-white rounded-full bg-white z-100">
-                                <span class="icon text-emerald-300">
-                                    <FontAwesomeIcon icon={faCheck} />
-                                </span>
-                            </div>
+                    <div class="flex items-center justify-center gap-10 grid-width">
+                        <div class="circle-emerald-500 rounded-full bg-white flex items-center justify-center">
+                            <span class="icon text-emerald-300">
+                                <FontAwesomeIcon icon={faCheck} />
+                            </span>
                         </div>
                         <div class="text-left text-white">
                             <h4 class="font-semibold text-md">Ongoing monitoring</h4>
                             <h6>The only AI-powered identity verification</h6>
                         </div>
                     </div>
-                    <div class="flex items-center justify-center gap-20 grid-width">
-                        <div class="circle-emerald-500 rounded-full bg-emerald-300 flex items-center justify-center">
-                            <div class="flex items-center justify-center circle-white rounded-full bg-white z-100">
-                                <span class="icon text-emerald-300">
-                                    <FontAwesomeIcon icon={faCheck} />
-                                </span>
-                            </div>
+                    <div class="flex items-center justify-center gap-10 grid-width">
+                        <div class="circle-emerald-500 rounded-full bg-white flex items-center justify-center">
+                            <span class="icon text-emerald-300">
+                                <FontAwesomeIcon icon={faCheck} />
+                            </span>
                         </div>
                         <div class="text-left text-white">
                             <h4 class="font-semibold text-md">Sanction screening</h4>
@@ -312,78 +302,62 @@ export default function Acceuil() {
                             </div>
                         </div>
                     </div>
-
-                    {/* into the same section  */}
-
-                    <div class="flex flex-wrap items-center justify-center mt-20">
-
-                        <div class="mr-60">
-                            <h2 class="text-emerald-900 text-left text-4xl mb-5 font-bold w-full">
-                                Address <br /> Vérification</h2>
-                            <div class="text-left mb-10">
-                                Localement ou internationalement, vos achats en ligne ne connaissent plus de limite <br />
-                                avec les carte virtuelles Visa MasterCard de chez SEKURE. En 2 minutes, créez et <br />
-                                vérifiez votre compte Sekure pour obtenir votre carte virtuelle. Entre des frais d'entretien <br />
-                                inexistants et des frais de
-                            </div>
-                            <div class="grid grid-cols-2 gap-10">
-                                <div class="flex items-center justify-center gap-5">
-                                    <div class="flex items-center justify-center small-circle-check rounded-full bg-emerald-300 z-100">
-                                        <span class="icon text-white">
-                                            <FontAwesomeIcon icon={faCheck} />
-                                        </span>
-                                    </div>
-                                    <div class="text-left text-xm">
-                                        Idéales pour sponsoriser les publicités <br /> sur facebook, LinkedIn, X, Google
-                                    </div>
-                                </div>
-                                <div class="flex items-center justify-center gap-5">
-                                    <div class="flex items-center justify-center small-circle-check rounded-full bg-emerald-300 z-100">
-                                        <span class="icon text-white">
-                                            <FontAwesomeIcon icon={faCheck} />
-                                        </span>
-                                    </div>
-                                    <div class="text-left">
-                                        Idéales pour sponsoriser les publicités <br /> sur facebook, LinkedIn, X, Google
-                                    </div>
-                                </div>
-                                <div class="flex items-center justify-center gap-5">
-                                    <div class="flex items-center justify-center small-circle-check rounded-full bg-emerald-300 z-100">
-                                        <span class="icon text-white">
-                                            <FontAwesomeIcon icon={faCheck} />
-                                        </span>
-                                    </div>
-                                    <div class="text-left">
-                                        Idéales pour sponsoriser les publicités <br /> sur facebook, LinkedIn, X, Google
-                                    </div>
-                                </div>
-                                <div class="flex items-center justify-center gap-5">
-                                    <div class="flex items-center justify-center small-circle-check rounded-full bg-emerald-300 z-100">
-                                        <span class="icon text-white">
-                                            <FontAwesomeIcon icon={faCheck} />
-                                        </span>
-                                    </div>
-                                    <div class="text-left">
-                                        Idéales pour sponsoriser les publicités <br /> sur facebook, LinkedIn, X, Google
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div>
-                            <div class="empty-card-2  bg-emerald-300 mt-10">
-
-                            </div>
-                            <div class="empty-card-2 bg-emerald-300 mt-10">
-
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </section>
 
             <section class="bg-white h-50">
+                <h2 class="text-emerald-900 text-4xl font-semibold pt-20 pb-10">Comply with KYC relations and onboard mord <br /> customers</h2>
+                <div>
+                    Orchestrate identity verification checks, code-free. Place checks at any stage of the customers journey for top anti-fraud protection and pass rates worldwide. Orchestrate identity verification <br />
+                    checks, code-free. Place checks at any stage of the customers journey for top anti-fraud protection and pass rates worldwide. Orchestrate identity verification
+                </div>
 
+                <div class="flex items-center justify-center gap-20 mt-20"> 
+                    <div class="flex flex-col items-center"> 
+                        <div class="flex items-center justify-center circle-orange-100 rounded-full">
+                            <div class="circle-amber-100 rounded-full bg-emerald-300 flex items-center justify-center">
+                                <span class="icon text-white">
+                                    <FontAwesomeIcon icon={faCheck} />
+                                </span>
+                            </div>
+                        </div>
+                        <div class="text-emerald-900 font-bold text-2xl">Comply wity evolving <br /> regulation </div>
+                        <div>Know that customers are genuine, ensure <br /> that the proper checks are carried out, <br /> and stay compliant</div>
+                    </div>
+                    <div class="flex flex-col items-center"> 
+                        <div class="flex items-center justify-center circle-orange-100 rounded-full">
+                            <div class="circle-amber-100 rounded-full bg-emerald-300 flex items-center justify-center">
+                                <span class="icon text-white">
+                                    <FontAwesomeIcon icon={faCheck} />
+                                </span>
+                            </div>
+                        </div>
+                        <div class="text-emerald-900 font-bold text-2xl">Comply wity evolving <br /> regulation </div>
+                        <div>Know that customers are genuine, ensure <br /> that the proper checks are carried out, <br /> and stay compliant</div>
+                    </div>
+                    <div class="flex flex-col items-center"> 
+                        <div class="flex items-center justify-center circle-orange-100 rounded-full">
+                            <div class="circle-amber-100 rounded-full bg-emerald-300 flex items-center justify-center">
+                                <span class="icon text-white">
+                                    <FontAwesomeIcon icon={faCheck} />
+                                </span>
+                            </div>
+                        </div>
+                        <div class="text-emerald-900 font-bold text-2xl">Comply wity evolving <br /> regulation </div>
+                        <div>Know that customers are genuine, ensure <br /> that the proper checks are carried out, <br /> and stay compliant</div>
+                    </div>
+                    <div class="flex flex-col items-center"> 
+                        <div class="flex items-center justify-center circle-orange-100 rounded-full">
+                            <div class="circle-amber-100 rounded-full bg-emerald-300 flex items-center justify-center">
+                                <span class="icon text-white">
+                                    <FontAwesomeIcon icon={faCheck} />
+                                </span>
+                            </div>
+                        </div>
+                        <div class="text-emerald-900 font-bold text-2xl">Comply wity evolving <br /> regulation </div>
+                        <div>Know that customers are genuine, ensure <br /> that the proper checks are carried out, <br /> and stay compliant</div>
+                    </div>
+                </div>
             </section>
         </>
     )

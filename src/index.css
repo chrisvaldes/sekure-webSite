@@ -25,22 +25,22 @@ code {
   }
 } */
 
-.circle-emerald-500{
-  width: 4.5rem;
-  height: 4.5rem;
+.logo-title{
+  font-weight: bold;
+  font-size: 2rem;
 }
-.circle-white{
-  width: 2.5rem;
-  height: 2.5rem;
-  z-index: 50;
+
+.circle-emerald-500{
+  width: 4rem;
+  height: 4rem;
 }
 
 .card-grid{
   display: grid;
-  grid-template-columns: repeat(auto-fit, 25rem);
+  grid-template-columns: repeat(auto-fit, 30rem);
   align-items: center;
   justify-content: center;
-  background-color: #065f46;
+  background-color: #56f1b8;
   border-radius: 2.5rem;
 }
 
@@ -52,6 +52,7 @@ code {
 .grid-width{
   width: 30rem;
   padding: 1rem 2rem;
+  /* margin : 0 5rem 0 0 */
 }
 
 .empty-card{
@@ -69,4 +70,15 @@ code {
   width: 25rem;
   height: 10rem;
   border-radius: 2rem;
+}
+
+.circle-orange-100{
+  width: 7rem;
+  height: 7rem;
+  background-color: #f9ebda;
+}
+
+.circle-amber-100{
+  width: 3rem;
+  height: 3rem;
 }
