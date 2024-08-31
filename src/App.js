@@ -1,15 +1,18 @@
-import './App.css'; 
-import NavBar from './components/NavBar';
-import Index from './IndexFolder';
-import Button from './IndexFolder/Button';
-import Acceuil from './pages/Accueil/Acceuil';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import './App.css';
+import Accueil from "./pages/Accueil/Accueil";
+import Consumer from "./pages/Consumer/Consumer";
 
 function App() {
   return (
     <div className="App">
-       {/* <Index/>
-       <Button children="Button" color="cyan" size="md"/> */}
-       <Acceuil/>
+       <BrowserRouter>
+        <Routes>
+          <Route path="/" Component={Accueil}/>
+          <Route path="/consumer" Component={Consumer}/>
+        </Routes>
+       </BrowserRouter>
+       {/* <Accueil/> */}
     </div>
   );
 }
